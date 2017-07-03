@@ -1,0 +1,17 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 2b309f8a9d784c70b97ae8305c980de3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot imr_tb_behav xil_defaultlib.imr_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Project/Vivado/project/project.srcs/sources_1/new/imageReader.v" Line 23. Module imageReader has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Project/Vivado/project/project.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Project/Vivado/project/project.srcs/sources_1/new/imageReader.v" Line 23. Module imageReader has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Project/Vivado/project/project.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.imageReader
+Compiling module xil_defaultlib.imr_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot imr_tb_behav
